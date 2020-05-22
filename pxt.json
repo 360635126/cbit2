@@ -5,10 +5,8 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
-        "cbit_IR":  "github:fengxue1990/cBit_IR",
         "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.0"
-	
+        
 
     },
     "files": [
