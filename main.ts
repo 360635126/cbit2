@@ -324,8 +324,17 @@ namespace Aibot_灯光{
         return yahStrip;  
     }
 
-
-     /**
+    
+    export class Strip {
+        buf: Buffer;
+        pin: DigitalPin;
+        // TODO: encode as bytes instead of 32bit
+        brightness: number;
+        start: number; // start offset in LED strip
+        _length: number; // number of LEDs
+        _mode: NeoPixelMode;
+        _matrixWidth: number; // number of leds in a matrix - if any
+        /**
          * Shows all LEDs to a given color (range 0-255 for r, g, b).
          * @param rgb RGB color of the LED
          */
@@ -333,11 +342,12 @@ namespace Aibot_灯光{
         //% strip.defl=strip
         //% weight=85 blockGap=8
         //% parts="neopixel"
-        export function showColor(rgb: number) {
+        showColor(rgb: number) {
             rgb = rgb >> 0;
             this.setAllRGB(rgb);
             this.show();
         }
+    }
 
    
 }
