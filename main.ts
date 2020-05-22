@@ -1136,7 +1136,7 @@ namespace Aibot_运动 {
 /**
  * Well known colors for a NeoPixel strip
  */
-enum NeoPixelColors {
+enum  Aibot_灯{
     //% block=red
     Red = 0xFF0000,
     //% block=orange
