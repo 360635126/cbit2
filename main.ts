@@ -323,19 +323,7 @@ namespace Aibot_灯光{
         }
         return yahStrip;  
     }
-      /**
-         * Shows all LEDs to a given color (range 0-255 for r, g, b).
-         * @param rgb RGB color of the LED
-         */
-        //% blockId="neopixel_set_strip_color" block="%strip|show color %rgb=neopixel_colors"
-        //% strip.defl=strip
-        //% weight=85 blockGap=8
-        //% parts="neopixel"
-        export function showColor(rgb: number) {
-            rgb = rgb >> 0;
-            this.setAllRGB(rgb);
-            this.show();
-        }
+     
         
 
    
