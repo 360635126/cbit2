@@ -8,7 +8,7 @@ load dependency
 
 
 //% color="#C814B8" weight=25 icon="\uf1d4"
-namespace Aibot_灯光{
+namespace Aibot123_灯光{
 
     
     // export enum enColor {
